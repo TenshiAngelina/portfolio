@@ -17,7 +17,7 @@
       {
         "title": "Employee Tracker Database",
         "description": "Database made with MySQL, console table, node.js, and express.js",
-        "picture": "/public/images/employee-manager.png",
+        "picture": "/images/employee-manager.png",
         "github": "https://github.com/TenshiAngelina/employee-tracker",
         "url": "https://youtu.be/Yw5ZJfpEKOo"
       },
