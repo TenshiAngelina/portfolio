@@ -13,25 +13,17 @@ Professional portfolio composed of pages and components made with React and Boot
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No need to install any software other than an internet browser like Chrome or Firefox.
+
+Go to the [deployed](https://portfolio-theta-wheat-49.vercel.app/) site.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+There is no need for any special instructions for its use.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+I could not have made this project without the help of my tutors, instructor, and TA. After several tutoring sessions and many office hours attended, I finally could understand the basics of React.
 
 ## License
 
