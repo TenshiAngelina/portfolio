@@ -8,15 +8,22 @@ import Stack from 'react-bootstrap/Stack';
 
 const Portfolio = () => {
   return (
-    <Stack direction="horizontal" gap={3}>
+    // <Container>
+    //   <Row>
+        <Stack direction="horizontal" gap={3}>
 
-            {
+        {/* <Col sm={1} md={3} lg={6}> */}
+          {
         database.pages[0].projects.map((project, i) => (
           <Project key={i} project={project}/>
           ))
-        }
+          }
+        {/* </Col> */}
+        </Stack>
 
-    </Stack>
+    //   </Row>
+
+    // </Container>
   )
 }
 

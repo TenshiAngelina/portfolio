@@ -17,7 +17,7 @@ const Navigation = () => {
           />{' '}
             Angelina Huerta Cortés
           </Navbar.Brand>
-        <Nav variant="tabs" defaultActiveKey="/">
+        <Nav justify variant="tabs" defaultActiveKey="/">
           <Nav.Item>
             <Nav.Link eventKey="home-link" as= {Link} to={{pathname:"/"}}>Home</Nav.Link>
           </Nav.Item>
