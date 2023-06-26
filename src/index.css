@@ -36,6 +36,7 @@ h1 {
   line-height: 1.1;
   color: aquamarine;
   font-family: 'Dancing Script', cursive;
+  text-align: center;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h2 {
   line-height: 1.1;
   color: rgb(112, 237, 195);
   font-family: 'Dancing Script', cursive;
+  text-align: center;
 }
 
 button {
@@ -78,6 +80,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+ul {
+  text-align: center;
+}
+
 li {
-list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 1.2em;
+  line-height: 0.2;
+  text-align: center;
 }
