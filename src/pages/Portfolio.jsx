@@ -1,27 +1,27 @@
 
 import Project from '../components/Project'
 import database from '../assets/data/data.json';
-// import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 
 const Portfolio = () => {
   return (
-    // <Container>
-    //   <Row>
+    <Container>
+      <h2>Check out my favorite projects</h2>
+
         <Stack direction="horizontal" gap={3}>
 
-        {/* <Col sm={1} md={3} lg={6}> */}
           {
         database.pages[0].projects.map((project, i) => (
           <Project key={i} project={project}/>
           ))
           }
-        {/* </Col> */}
+
         </Stack>
 
-    //   </Row>
+
 
     // </Container>
   )

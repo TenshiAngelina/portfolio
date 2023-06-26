@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
 
-const Project = ({project}) => {
+const Project = ({ project }) => {
   return (
     <Card style={{ width: '19rem' }}>
       <Card.Img variant="top" src={project.picture} />

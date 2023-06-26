@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -35,6 +35,15 @@ h1 {
   font-size: 5em;
   line-height: 1.1;
   color: aquamarine;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 3.5em;
+  line-height: 1.1;
+  color: rgb(112, 237, 195);
   font-family: 'Dancing Script', cursive;
 }
 

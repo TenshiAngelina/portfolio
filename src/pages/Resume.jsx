@@ -1,18 +1,25 @@
-
+import Container from 'react-bootstrap/Container';
+import DownloadButton from "../components/DownloadButton";
+import ResumeFile from "../assets/data/resume.pdf";
 
 const Resume = () => {
   return (
-    <div>
-      <h2>My strenghts</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>Databases</li>
+    <Container>
 
-      </ul>
-    </div>
+    <h2>Download a copy of my resume</h2>
+
+    <a className="d-grid gap-2"
+    href={ResumeFile}
+    download="Angelina-H-Cortes-resume-WebDev"
+    target="_blank"
+    rel="noreferrer"
+    >
+      <DownloadButton/>
+    </a>
+
+    </Container>
+
+
   )
 }
 
