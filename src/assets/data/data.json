@@ -12,35 +12,40 @@
         "description": "Take notes in this site and keep them with Local Storage. App made with node.js and express.js",
         "picture": "/images/note-taker-app.png",
         "github": "https://github.com/TenshiAngelina/note-taker",
-        "url": "https://immense-bayou-66708.herokuapp.com/"
+        "url": "https://immense-bayou-66708.herokuapp.com/",
+        "technologies": ["https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"]
       },
       {
         "title": "Employee Tracker Database",
         "description": "Database made with MySQL, console table, node.js, and express.js",
         "picture": "/images/employee-manager.png",
         "github": "https://github.com/TenshiAngelina/employee-tracker",
-        "url": "https://youtu.be/Yw5ZJfpEKOo"
+        "url": "https://youtu.be/Yw5ZJfpEKOo",
+        "technologies": ["https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg", "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"]
       },
       {
         "title": "PWA text editor",
         "description": "Text editor that can be used offline.",
         "picture": "/images/pwa-text-editor.png",
         "github": "https://github.com/TenshiAngelina/pwa-text-editor",
-        "url": "https://obscure-refuge-22891.herokuapp.com/"
+        "url": "https://obscure-refuge-22891.herokuapp.com/",
+        "technologies": ["https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"]
       },
       {
         "title": "E-comerce backend",
         "description": "Create, Read, Update, and Delete information. Made with Node.js, Express.js, MySQL, and Sequelize.",
         "picture": "/images/e-commerce.png",
         "github": "https://github.com/TenshiAngelina/e-commerce-backend",
-        "url": "https://youtu.be/O4da3I3iEVM"
+        "url": "https://youtu.be/O4da3I3iEVM",
+        "technologies": ["https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg", "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"]
       },
       {
         "title": "Readme Generator",
         "description": "Readme generator made with node.js.",
         "picture": "/images/readme-generator.png",
         "github": "https://github.com/TenshiAngelina/readme-generator",
-        "url": "https://youtu.be/c0fn7qQBOBA"
+        "url": "https://youtu.be/c0fn7qQBOBA",
+        "technologies": ["https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"]
       }
     ],
     "resume": {}

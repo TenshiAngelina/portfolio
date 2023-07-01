@@ -9,21 +9,19 @@ import Stack from 'react-bootstrap/Stack';
 const Portfolio = () => {
   return (
     <Container>
-      <h2>Check out my favorite projects</h2>
 
-        <Stack direction="horizontal" gap={3}>
+      <h2>Check out my most recent projects</h2>
 
-          {
-        database.pages[0].projects.map((project, i) => (
-          <Project key={i} project={project}/>
+      <Stack direction="horizontal" gap={3}>
+
+        {
+          database.pages[0].projects.map((project, i) => (
+            <Project key={i} project={project} />
           ))
-          }
+        }
 
-        </Stack>
-
-
-
-    // </Container>
+      </Stack>
+    </Container>
   )
 }
 
