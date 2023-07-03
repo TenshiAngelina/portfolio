@@ -8,7 +8,17 @@
   "pages": [
     {
       "projects": [
-        
+        {
+          "title": "Weather App",
+          "description": "Write a city's name and press Search, you'll get the weather for the next 5 days",
+          "picture": "/images/weather-app.png",
+          "github": "https://github.com/TenshiAngelina/ch6-weather-dashboard",
+          "url": "https://tenshiangelina.github.io/ch6-weather-dashboard/",
+          "technologies": [
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg","https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+          ]
+        },
         {
           "title": "Note Taker",
           "description": "User can take notes in this site and keep them for future reference, notes can also be deleted",

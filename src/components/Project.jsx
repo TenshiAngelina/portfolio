@@ -14,7 +14,7 @@ const Project = ({ project }) => {
         </Card.Text>
         <Stack direction="horizontal" gap={1}>
           {project.technologies.map((tech, i) => (
-            <Image src={tech} key={i} width="50" height="50" />
+            <Image src={tech} key={i} width="40" height="40" />
           ))}
         </Stack>
         <Stack gap={2}>
