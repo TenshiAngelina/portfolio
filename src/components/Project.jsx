@@ -2,7 +2,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
 import Image from 'react-bootstrap/Image';
-import database from '../assets/data/data.json';
 
 const Project = ({ project }) => {
   return (
@@ -13,11 +12,11 @@ const Project = ({ project }) => {
         <Card.Text>
           {project.description}
         </Card.Text>
-        <Card.Text>
+        <Stack direction="horizontal" gap={1}>
           {project.technologies.map((tech, i) => (
             <Image src={tech} key={i} width="50" height="50" />
           ))}
-        </Card.Text>
+        </Stack>
         <Stack gap={2}>
           <Button variant="outline-info" href={project.github}>Repository</Button>
           <Button variant="outline-info" href={project.url}>Deployed</Button>
