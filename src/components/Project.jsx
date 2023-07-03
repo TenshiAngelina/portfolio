@@ -1,22 +1,22 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
-// import database from '../assets/data/data.json';
+import Image from 'react-bootstrap/Image';
+import database from '../assets/data/data.json';
 
 const Project = ({ project }) => {
   return (
-    <Card style={{ width: "19rem", height: "35rem" }}>
+    <Card style={{ width: "19rem" }}>
       <Card.Img variant="top" src={project.picture} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
         <Card.Text>
           {project.description}
-          {/* <ul>
-            <li><img src={
-          database.pages[0].projects.technologies.map((technologies, i) => (
-            <project.technologies key={i} technologies={technologies} />
-          ))} width="30" height="30"/></li>
-          </ul> */}
+        </Card.Text>
+        <Card.Text>
+          {project.technologies.map((tech, i) => (
+            <Image src={tech} key={i} width="50" height="50" />
+          ))}
         </Card.Text>
         <Stack gap={2}>
           <Button variant="outline-info" href={project.github}>Repository</Button>

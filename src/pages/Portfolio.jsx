@@ -16,7 +16,7 @@ const Portfolio = () => {
 
         {
           database.pages[0].projects.map((project, i) => (
-            <Project key={i} project={project} />
+            <Project key={i} project={project}/>
           ))
         }
 
