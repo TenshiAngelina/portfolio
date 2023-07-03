@@ -1,11 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Stack from 'react-bootstrap/Stack';
-import database from '../assets/data/data.json';
+// import database from '../assets/data/data.json';
 
 const Project = ({ project }) => {
   return (
-    <Card style={{ width: '19rem' }}>
+    <Card style={{ width: "19rem", height: "35rem" }}>
       <Card.Img variant="top" src={project.picture} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
