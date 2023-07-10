@@ -1,10 +1,9 @@
-
 import Project from '../components/Project'
 import database from '../assets/data/data.json';
 import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-import Stack from 'react-bootstrap/Stack';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+// import Stack from 'react-bootstrap/Stack';
 
 const Portfolio = () => {
   return (
@@ -12,15 +11,19 @@ const Portfolio = () => {
 
       <h2>Check out my most recent projects</h2>
 
-      <Stack direction="horizontal" gap={3}>
+      {/* <Stack direction="horizontal" gap={3}> */}
 
-        {
-          database.pages[0].projects.map((project, i) => (
-            <Project key={i} project={project}/>
-          ))
-        }
+      <Row>
+        <Col className="project-col">
+          {
+            database.pages[0].projects.map((project, i) => (
+              <Project key={i} project={project}/>
+            ))
+          }
+        </Col>
+      </Row>
 
-      </Stack>
+      {/* </Stack> */}
     </Container>
   )
 }
@@ -30,3 +33,5 @@ export default Portfolio
 
 // This is an older function that was used here, left commented for future reference
 // {/* <h2 key={i}>{project.title}</h2> */}
+// Code for responsive cards
+// sm={9} md={6} lg={3} gap={3}
