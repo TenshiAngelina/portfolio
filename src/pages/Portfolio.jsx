@@ -33,5 +33,3 @@ export default Portfolio
 
 // This is an older function that was used here, left commented for future reference
 // {/* <h2 key={i}>{project.title}</h2> */}
-// Code for responsive cards
-// sm={9} md={6} lg={3} gap={3}

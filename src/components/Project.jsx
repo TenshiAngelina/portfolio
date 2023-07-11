@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 
 const Project = ({ project }) => {
   return (
-    <Card style={{ width: "19rem" }}>
+    <Card>
       <Card.Img variant="top" src={project.picture} />
       <Card.Body>
         <Card.Title>{project.title}</Card.Title>
@@ -14,7 +14,7 @@ const Project = ({ project }) => {
         </Card.Text>
         <Stack direction="horizontal" gap={1}>
           {project.technologies.map((tech, i) => (
-            <Image src={tech} key={i} width="40" height="40" />
+            <Image className="tech-image" src={tech} key={i} width="40" height="40"/>
           ))}
         </Stack>
         <Stack gap={2}>
