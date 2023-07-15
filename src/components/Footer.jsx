@@ -9,11 +9,11 @@ function Footer() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-center">
           
-          <Navbar.Text >
+          <Navbar.Text>
           Angelina Huerta Cortés Copyright© 2023
           </Navbar.Text>
 
-          <Navbar.Text>
+          <Navbar.Text  style={{ margin: '0.3rem' }}>
           <Image src="https://vitejs.dev/logo.svg" width="25" height="25"/> + <Image src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="25" height="25"/>
           </Navbar.Text>
 
