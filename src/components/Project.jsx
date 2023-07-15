@@ -18,8 +18,8 @@ const Project = ({ project }) => {
           ))}
         </Stack>
         <Stack gap={2}>
-          <Button variant="outline-info" href={project.github} target="_blank">Repository</Button>
-          <Button variant="outline-info" href={project.url} target="_blank">Deployed</Button>
+          <Button variant="outline-success" href={project.github} target="_blank">Repository</Button>
+          <Button variant="outline-success" href={project.url} target="_blank">Deployed</Button>
         </Stack>
       </Card.Body>
     </Card>
