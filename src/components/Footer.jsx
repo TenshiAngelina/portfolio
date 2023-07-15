@@ -9,7 +9,7 @@ function Footer() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-center">
           
-          <Navbar.Text>
+          <Navbar.Text >
           Angelina Huerta Cortés Copyright© 2023
           </Navbar.Text>
 

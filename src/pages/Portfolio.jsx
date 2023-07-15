@@ -11,8 +11,6 @@ const Portfolio = () => {
 
       <h2>Check out my most recent projects</h2>
 
-      {/* <Stack direction="horizontal" gap={3}> */}
-
       <Row>
         <Col className="project-col">
           {
@@ -23,7 +21,6 @@ const Portfolio = () => {
         </Col>
       </Row>
 
-      {/* </Stack> */}
     </Container>
   )
 }
