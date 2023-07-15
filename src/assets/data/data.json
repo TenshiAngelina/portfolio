@@ -55,7 +55,7 @@
         },
         {
           "title": "E-comerce backend",
-          "description": "Create, Read, Update, and Delete product's information, the backbone of an e-commerce",
+          "description": "Create, Read, Update, and Delete products' information",
           "picture": "/images/e-commerce.png",
           "github": "https://github.com/TenshiAngelina/e-commerce-backend",
           "url": "https://youtu.be/O4da3I3iEVM",
