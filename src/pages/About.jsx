@@ -7,8 +7,8 @@ const About = () => {
       {/* <h4>English C1</h4> */}
       {/* <h4>Spanish Native</h4> */}
       <Card style={{ width: "50rem" }}>
-        <Card.Body>
-          <h5>As a web developer, my journey began in a rigorous bootcamp where I gained valuable hands-on experience in the following technologies:</h5>
+        <Card.Body style={{ textAlign: "justify", padding: "1.2rem" }}>
+          <h5>As a <strong>web developer</strong>, my journey began in a rigorous bootcamp where I gained valuable hands-on experience in the following technologies:</h5>
 
           <ul>
             <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="40" height="40" /></li>
@@ -22,7 +22,7 @@ const About = () => {
             <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongoDB" width="40" height="40" /></li>
           </ul>
 
-          <h5>Through various projects, I applied these technologies to develop responsive web applications, ensuring seamless user experiences across devices. Collaborating with diverse teams, I honed my skills in problem-solving, debugging, and iterative development. By integrating APIs and implementing user authentication, I demonstrated proficiency in creating dynamic and secure web solutions. The bootcamp also instilled in me a strong foundation in <bold>version control</bold>, <bold>agile methodologies</bold>, and effective communication, enabling me to contribute effectively to the development lifecycle in my target role as a web developer.</h5>
+          <h5>Through various projects, I applied these technologies to develop responsive web applications, ensuring seamless user experiences across devices. Collaborating with diverse teams, I honed my skills in problem-solving, debugging, and iterative development. By integrating APIs and implementing user authentication, I demonstrated proficiency in creating dynamic and secure web solutions. The bootcamp also instilled in me a strong foundation in <strong>version control</strong>, <strong>agile methodologies</strong>, and effective communication, enabling me to contribute effectively to the development lifecycle in my target role as a web developer.</h5>
         </Card.Body>
       </Card>
 
