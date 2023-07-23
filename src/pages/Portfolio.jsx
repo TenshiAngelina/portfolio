@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <Container>
 
-      <h2>Check out my most recent projects</h2>
+      <h2>My projects</h2>
 
       <Row>
         <Col className="project-col">

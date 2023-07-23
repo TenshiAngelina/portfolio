@@ -7,7 +7,7 @@ const About = () => {
       {/* <h4>English C1</h4> */}
       {/* <h4>Spanish Native</h4> */}
       <Card style={{ width: "50rem" }}>
-        <Card.Body style={{ textAlign: "justify", padding: "1.2rem" }}>
+        <Card.Body style={{ textAlign: "justify", padd0ing: "1.2rem" }}>
           <h5>As a <strong>web developer</strong>, my journey began in a rigorous bootcamp where I gained valuable hands-on experience in the following technologies:</h5>
 
           <ul>
