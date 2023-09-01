@@ -3,7 +3,8 @@
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to my coding adventure!</h1>
+      <h1>Crafting Digital Experiences!</h1>
+      <h2>Elevating online presence with tailored web solutions for seamless interactions</h2>
     </div>
   )
 }
